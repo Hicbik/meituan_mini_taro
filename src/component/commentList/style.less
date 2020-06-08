@@ -1,0 +1,48 @@
+.commentList {
+  margin-top: 0.6rem;
+
+  text {
+    color: #333333;
+  }
+
+  .commentList-item {
+    display: flex;
+    margin-top: 1rem;
+
+    .commentList-avatar {
+      padding-top: 0.5rem;
+      width: 3rem;
+      margin-right: 0.6rem;
+      image {
+        width: 3rem;
+        height: 3rem;
+        border-radius: 50%;
+        display: block;
+      }
+    }
+
+    .commentList-box {
+      border-bottom: 1px solid #e5e5e5;
+      padding: 0.5rem 0;
+      flex:1;
+
+      .commentList-text {
+        width: 90%;
+        margin: 0.6rem 0;
+      }
+
+      .commentList-images{
+        display: flex;
+        flex-wrap: wrap;
+
+
+        image{
+          width: 5rem;
+          height: 5rem;
+          margin-right: 0.4rem;
+          margin-bottom: 0.4rem;
+        }
+      }
+    }
+  }
+}

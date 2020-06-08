@@ -1,0 +1,14 @@
+.star text {
+  font-size: 0.8rem;
+  color: #333333;
+}
+.star .star-icon::before {
+  content: "★";
+  color: #e2e2e2;
+  margin-right: 0.2rem;
+  font-style: initial;
+}
+.star .now::before {
+  color: #fdb338;
+}
+/*# sourceMappingURL=style.less.css.map */

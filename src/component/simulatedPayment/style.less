@@ -1,0 +1,97 @@
+.SimulatedPayment {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  text {
+    color: #000000;
+    font-size: 0.9rem;
+  }
+
+  .SimulatedPayment-Mask{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .5);
+  }
+
+  .SimulatedPayment-box {
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 0.6rem 0.8rem 2rem;
+    box-sizing: border-box;
+
+    .SimulatedPayment-close {
+      text {
+        font-size: 2rem;
+        color: #bbbbbb;
+      }
+    }
+
+    .SimulatedPayment-title {
+      text-align: center;
+    }
+
+    .SimulatedPayment-price {
+      font-weight: bold;
+      margin-top: 1rem;
+
+      text:first-of-type {
+        font-size: 1rem;
+      }
+
+      text:last-of-type {
+        font-size: 2rem;
+      }
+    }
+
+    .SimulatedPayment-payType {
+      display: flex;
+      align-items: center;
+      padding-top: 0.6rem;
+      margin-top: 1rem;
+      border-top: 1px solid #e5e5e5;
+
+      text {
+        color: #808080;
+      }
+    }
+
+    .SimulatedPayment-change {
+      margin-left: auto;
+      display: flex;
+      align-items: center;
+
+      image {
+        width: 1rem;
+        height: 1rem;
+        margin-right: 0.3rem;
+        display: block;
+      }
+
+      text {
+        display: block;
+      }
+    }
+
+    .SimulatedPayment-btn {
+      text-align: center;
+      margin-top: 2rem;
+
+      text {
+        display: inline-block;
+        color: #ffffff;
+        font-size: 1rem;
+        border-radius: 10px;
+        padding: 0.6rem 3rem;
+        background-color: #07c160;
+      }
+    }
+  }
+}

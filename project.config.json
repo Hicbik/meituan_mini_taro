@@ -1,0 +1,30 @@
+{
+	"miniprogramRoot": "dist/",
+	"projectname": "meituan-taro",
+	"description": "meituan",
+	"appid": "wx61be3ea604168a04",
+	"setting": {
+		"urlCheck": true,
+		"es6": false,
+		"postcss": false,
+		"minified": false,
+		"newFeature": true,
+		"coverView": true,
+		"autoAudits": false,
+		"showShadowRootInWxmlPanel": false,
+		"checkInvalidKey": true,
+		"checkSiteMap": true,
+		"uploadWithSourceMap": true,
+		"babelSetting": {
+			"ignore": [],
+			"disablePlugins": [],
+			"outputPath": ""
+		}
+	},
+	"compileType": "miniprogram",
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"libVersion": "2.9.4",
+	"cloudfunctionTemplateRoot": "cloudfunctionTemplate",
+	"condition": {}
+}

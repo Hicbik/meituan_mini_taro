@@ -1,0 +1,154 @@
+page {
+  background-color: #f8f8f8;
+}
+
+
+.SubmitOrder {
+  padding: 0.8rem;
+
+  text {
+    font-size: 0.8rem;
+    color: #333;
+  }
+
+  .SubmitOrder-box {
+    padding: 0.8rem;
+    margin-bottom: 0.6rem;
+    background-color: #fff;
+    border-radius: 10px;
+  }
+
+  .SubmitOrder-shop {
+    display: flex;
+    border-bottom: 1px dashed #d8d8d8;
+    padding-bottom: 1rem;
+
+    .SubmitOrder-img {
+      width: 4rem;
+      height: 4rem;
+      border-radius: 5px;
+      overflow: hidden;
+      margin-right: 0.6rem;
+
+      image {
+        width: 100%;
+      }
+    }
+
+    .SubmitOrder-text {
+      flex: 1;
+
+      text {
+        display: block;
+      }
+
+      .boon {
+        display: flex;
+        margin: 0.3rem 0;
+
+        text {
+          color: #999999;
+          font-size: 0.7rem;
+        }
+      }
+    }
+
+    .SubmitOrder-operating {
+      margin-left: auto;
+      width: 5rem;
+      display: flex;
+      flex-direction: row-reverse;
+      align-items: center;
+
+      text {
+        display: block;
+        width: 1.5rem;
+        text-align: center;
+      }
+
+      .btn {
+        border-radius: 50%;
+        width: 1.5rem;
+        height: 1.5rem;
+        font-size: 1rem;
+        text-align: center;
+        line-height: 1.5rem;
+        font-weight: bold;
+
+        &:last-of-type {
+          border: 1px solid #e3e3e3;
+          color: #ccc;
+        }
+
+        &:first-of-type {
+          border: 1px solid #06c1ae;
+          background-color: #06c1ae;
+          color: #fff;
+        }
+
+      }
+    }
+  }
+
+  .SubmitOrder-price, .SubmitOrder-item {
+    display: flex;
+    margin-top: 0.6rem;
+    align-items: center;
+
+    text {
+      display: block;
+    }
+
+    text:first-of-type {
+      margin-right: auto;
+      color: #999;
+    }
+
+    text:last-of-type {
+      margin-left: auto;
+      color: #fe9900;
+      font-weight: bold;
+      font-size: 1rem;
+    }
+
+  }
+
+  .SubmitOrder-item {
+    padding-bottom: 0.6rem;
+    border-bottom: 1px solid #e5e5e5;
+
+    &:last-of-type {
+      border: none;
+    }
+
+    text:first-of-type {
+      color: #333;
+    }
+
+    text:last-of-type {
+      color: #999;
+      font-weight: normal;
+      font-size: 0.8rem;
+    }
+
+  }
+
+  .SubmitOrder-footer {
+    width: 100%;
+    position: fixed;
+    bottom: 1rem;
+    left: 0;
+    padding: 0.8rem;
+    box-sizing: border-box;
+
+    text {
+      display: block;
+      background-color: #fe9900;
+      color: #fff;
+      font-size: 1rem;
+      border-radius: 10px;
+      text-align: center;
+      padding: 0.8rem;
+    }
+  }
+}

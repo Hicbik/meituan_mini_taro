@@ -1,0 +1,237 @@
+text {
+  color: #000;
+  font-size: 0.8rem;
+}
+
+.deal {
+  padding: .8rem .8rem 6rem;
+
+
+  .name {
+    font-size: .8rem;
+    color: #333;
+    display: flex;
+    align-items: center;
+    margin: .3rem 0;
+
+
+    text {
+      margin-right: 0.3rem;
+    }
+
+    .sales {
+      margin-left: auto;
+
+      text {
+        color: #999;
+      }
+    }
+  }
+
+  .title {
+    color: #000;
+    font-weight: bold;
+    display: flex;
+
+    text {
+      font-size: 1.8rem;
+      flex: 1;
+    }
+  }
+
+  .img {
+    width: 100%;
+    height: auto;
+    margin: .8rem 0 1.2rem;
+
+    image {
+      width: 100%;
+      border-radius: 8px;
+    }
+  }
+
+  .icon {
+    width: 1.1rem;
+    height: 1.1rem;
+    margin-right: 0.3rem;
+  }
+
+  .introduction {
+    margin-top: 1rem;
+
+    text {
+      font-size: 1rem;
+      color: #333333;
+    }
+
+    .introduction-context {
+      display: flex;
+      margin-top: 0.6rem;
+
+      .introduction-img {
+        width: 7rem;
+        margin-right: .6rem;
+
+        image {
+          width: 100%;
+        }
+      }
+
+      .introduction-text {
+        flex: 1;
+        position: relative;
+
+        & > text {
+          display: block;
+          overflow: hidden; //一定要写
+          text-overflow: ellipsis;
+          display: -webkit-box; //一定要写
+          -webkit-line-clamp: 1; //控制行数
+          -webkit-box-orient: vertical;
+        }
+
+        & > text:nth-of-type(1) {
+          font-size: 1.1rem;
+        }
+
+
+        .introduction-addr {
+          margin-top: 0.4rem;
+          display: flex;
+          width: 85%;
+          align-items: center;
+
+          text {
+            font-size: 0.8rem;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 1;
+            -webkit-box-orient: vertical;
+          }
+
+          Image {
+            width: 1.3rem;
+          }
+
+        }
+
+        .phone {
+          width: 2rem;
+          position: absolute;
+          top: 1rem;
+          right: 0.5rem;
+        }
+      }
+    }
+  }
+
+
+
+  .share {
+    margin-left: auto;
+    margin-right: 0;
+    padding: .5rem;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    height: 1.5rem;
+    background-color: #f0fbfa;
+    border-radius: 30px;
+
+    &::after {
+      display: none;
+    }
+
+    text {
+      font-size: 0.8rem;
+      color: #0ec4b1;
+      font-weight: normal;
+    }
+
+    image {
+      margin: 0;
+    }
+
+  }
+
+  .evaluation {
+    display: flex;
+    margin-top: 1rem;
+    margin-bottom: 0.6rem;
+
+    text {
+      display: block;
+      font-size: 1rem;
+      color: #333333;
+      font-weight: bold;
+    }
+
+    text:last-of-type {
+      margin-left: auto;
+      font-size: 0.8rem;
+      color: #0ec4b1;
+      font-weight: normal;
+    }
+  }
+
+  .snap-up{
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    background-color: #fff;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 4rem;
+    padding: 0.3rem 0.8rem;
+
+    .snap-up-left{
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      .snap-up-now{
+        display: flex;
+        align-items: center;
+        height: 1.2rem;
+        text{
+          color: #f90;
+          display: block;
+        }
+
+        text:first-of-type{
+          font-size: 1.2rem;
+          margin-right: 0.3rem;
+        }
+
+        text:last-of-type{
+          font-size: 0.5rem;
+          border: 1px solid #f90;
+          padding:0.1rem;
+        }
+      }
+
+    }
+
+    .snap-up-right{
+      margin-left: auto;
+      border-radius: 50px;
+      background-color: #f90;
+      padding: 0 1.5rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 3rem;
+      align-self: center;
+      text{
+        font-size: 1rem;
+        color: #fff;
+        font-weight: bold;
+      }
+    }
+  }
+
+}
+
+
+

@@ -1,0 +1,25 @@
+page {
+  background-color: #fff;
+}
+.con {
+  padding-top: 3.3rem;
+  height: 100%;
+  box-sizing: border-box;
+}
+.segmentation {
+  height: 0.6rem;
+  background-color: #f8f8f8;
+}
+.carousel {
+  padding: 0.5rem 0.6rem;
+  background-color: #fff;
+}
+.carousel swiper {
+  height: 6.8rem;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.carousel image {
+  width: 100%;
+}
+/*# sourceMappingURL=style.less.css.map */

@@ -1,0 +1,45 @@
+page{
+  background-color: #f8f8f8;
+}
+
+text{
+  font-size: 0.8rem;
+  color: #333333;
+}
+
+.UserInfo{
+  padding-top: 0.8rem;
+  .UserInfo-item{
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 0.6rem 0.8rem;
+    border-bottom: 1px solid #f1f1f1;
+    &:last-of-type{
+      border-color: transparent;
+    }
+  }
+
+  .left{
+    margin-right: auto;
+  }
+
+  .right{
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+
+    image{
+      width: 3rem;
+      height: 3rem;
+      border-radius: 50%;
+      overflow: hidden;
+      box-shadow:0 0 0.5rem 0 rgba(0, 0, 0, 0.1);
+    }
+
+    text{
+      color: #999999;
+      margin-left: 0.6rem;
+    }
+  }
+}

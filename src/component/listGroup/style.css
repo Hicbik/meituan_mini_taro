@@ -1,0 +1,21 @@
+.recommend {
+  margin-bottom: 0.6rem;
+}
+.recommend .recommend-title {
+  font-weight: bold;
+}
+.recommend .recommend-title text {
+  font-size: 1rem;
+}
+.recommend .recommend-context {
+  display: flex;
+  margin-top: 0.6rem;
+  align-items: center;
+  padding-left: 0.6rem;
+}
+.recommend .recommend-context text {
+  display: block;
+  font-size: 0.8rem;
+  color: #000;
+}
+/*# sourceMappingURL=style.less.css.map */
